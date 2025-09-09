@@ -1052,10 +1052,10 @@ li {
 
 .close_btn {
   position: absolute;
-  top: -40px;
-  right: -40px;
-  width: 42px;
-  height: 42px;
+  top: -22px;
+  right: -16px;
+  width: 32px;
+  height: 32px;
   border: none;
   border-radius: 50%;
   background: #fff;
@@ -1070,7 +1070,7 @@ li {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 28px;
+  width: 22px;
   height: 2.5px;
   background: #333;
   border-radius: 2px;
@@ -1084,8 +1084,8 @@ li {
 }
 
 .banner_section img {
-  width: 235px;
-  height: 235px;
+  width: 185px;
+  height: 185px;
 }
 
 /* *************** footer ********************* */
@@ -3038,11 +3038,6 @@ li {
     bottom: 12%;
   }
 
-
-  .banner_section img {
-    width: 200px;
-    height: 200px;
-  }
 }
 
 @media screen and (max-width: 420px) {
