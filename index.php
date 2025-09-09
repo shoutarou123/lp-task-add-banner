@@ -695,6 +695,7 @@
 
   <script src="./js/index.js"></script>
   <script src="./js/banner.js"></script>
+  <script src="./js/header.js"></script>
 </body>
 
 </html>

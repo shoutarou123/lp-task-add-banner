@@ -38,17 +38,26 @@ li {
   background-color: #fff;
   width: clamp(1px, 92.2916vw, 1772px);
   height: 80px;
-  margin: 0px auto 63px auto;
+  margin: 0px auto;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 62px;
+  /* margin-bottom: 62px; */
+  /* transition: all 0.3s; */
+}
+
+.logo_content_flex.fixed {
   position: fixed;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
+  margin-top: 0;
+  margin-bottom: 0;
   z-index: 999;
+  box-shadow: 0 8px 24px -8px rgba(0,0,0,0.08);
 }
+
 
 .logo_img {
   margin-left: 48px;
@@ -76,7 +85,7 @@ li {
   align-items: center;
   background-color: rgba(131, 153, 220, 0.1);
   margin-bottom: 40px;
-  margin-top: 140px;
+  margin-top: 63px;
 }
 
 .sub_title_text {
@@ -1384,7 +1393,7 @@ li {
   }
 
   .earth_content_block {
-    margin-left: -50px;
+    margin-left: -63px;
   }
 
   .earth_bg_img {
