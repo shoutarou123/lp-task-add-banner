@@ -1033,6 +1033,52 @@ li {
   display: none;
 }
 
+/* ************* banner_section **************** */
+.banner_section {
+  position: fixed;
+  left: 3%;
+  bottom: 5%;
+  filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+.close_btn {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+  z-index: 999;
+}
+
+.close_btn::before,
+.close_btn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 28px;
+  height: 2.5px;
+  background: #333;
+  border-radius: 2px;
+}
+
+.close_btn::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.close_btn::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.banner_section img {
+  width: 235px;
+  height: 235px;
+}
+
 /* *************** footer ********************* */
 
 .footer_content {
@@ -1997,6 +2043,12 @@ li {
     display: block !important;
     width: 550px;
     margin-bottom: 37px;
+  }
+
+  /* ******** banner section ********* */
+  .banner_section {
+    left: 3%;
+    bottom: 15%;
   }
 
   /* ********* footer ************* */
@@ -2970,6 +3022,17 @@ li {
 
   .button_content_flex_sp.hidden {
     gap: 10px;
+  }
+
+  /* ******** banner section ********* */
+  .banner_section {
+    bottom: 12%;
+  }
+
+
+  .banner_section img {
+    width: 200px;
+    height: 200px;
   }
 }
 

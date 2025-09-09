@@ -669,10 +669,16 @@
           <span class="dl_text">無料相談&資料請求はこちら</span>
           <img class="icon_img" src="./img/pc/group-491-1.png" />
           <img class="icon_img_sp hidden" src="./img/sp/Group 6.png" />
-
         </a>
       </div>
     </div>
+  </section>
+
+  <section class="banner_section" id="bannerSection">
+    <button class="close_btn" id="closeBtn" aria-label="バナーを閉じる"></button>
+    <a href="https://taiziii.com/skillrelay/knowledge-transfer-report-2025">
+      <img src="./img/banner/banner.png" alt="バナー画像" />
+    </a>
   </section>
 
   <footer class="footer_content">
@@ -688,6 +694,7 @@
   </footer>
 
   <script src="./js/index.js"></script>
+  <script src="./js/banner.js"></script>
 </body>
 
 </html>
