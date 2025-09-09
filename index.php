@@ -271,9 +271,9 @@
             従来のマニュアルや汎用AIでは補えない
           </p>
           <p class="sub_text bottom">
-            “熟練知の継承”を、SkillRelayは実現します。
+            “知識継承”を、SkillRelayは実現します。
           </p>
-          <p class="sub_text hidden">従来のマニュアルや汎用AIでは補えない“熟練知の継承”を、SkillRelayは実現します。</p>
+          <p class="sub_text hidden">従来のマニュアルや汎用AIでは補えない“知識継承”を、SkillRelayは実現します。</p>
         </div>
       </div>
     </div>
@@ -650,16 +650,16 @@
 
   <section class="last_section">
     <div class="last_title_content">
-      <p>熟練者の知見をAIに継承し、未来につなげませんか？</p>
-      <p class="last_title_sp hidden">熟練者の知見をAIに継承し、</p>
+      <p>熟練者の知見をAIに知識継承し、未来につなげませんか？</p>
+      <p class="last_title_sp hidden">熟練者の知見をAIに知識継承し、</p>
       <p class="last_title_sp hidden">未来につなげませんか？</p>
     </div>
     <div class="last_section_text_content">
       <p>まずは、貴社の課題をお聞かせください。</p>
-      <p>熟練者の知見をAIに継承し、次世代へとつなげることで、</p>
+      <p>熟練者の知見をAIに知識継承し、次世代へとつなげることで、</p>
       <p>持続的な競争力強化を実現します。</p>
       <p class="last_section_text hidden">
-        まずは、貴社の課題をお聞かせください。熟練者の知見をAIに継承し、次世代へとつなげることで、持続的な競争力強化を実現します。
+        まずは、貴社の課題をお聞かせください。熟練者の知見をAIに知識継承し、次世代へとつなげることで、持続的な競争力強化を実現します。
       </p>
     </div>
 
