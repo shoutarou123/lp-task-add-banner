@@ -44,6 +44,10 @@ li {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 62px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
 }
 
 .logo_img {
@@ -72,6 +76,7 @@ li {
   align-items: center;
   background-color: rgba(131, 153, 220, 0.1);
   margin-bottom: 40px;
+  margin-top: 140px;
 }
 
 .sub_title_text {
@@ -1492,7 +1497,7 @@ li {
 
 @media screen and (max-width: 850px) {
   .fv {
-    height: 2750px;
+    height: 2630px;
   }
 
   .bg_img {
@@ -1503,6 +1508,9 @@ li {
     width: auto;
     border: none;
     border-radius: 0px;
+    position: static;
+    left: auto;
+    transform: none;
   }
 
   .button_img {
@@ -1513,6 +1521,7 @@ li {
     width: auto;
     margin-left: 80px;
     margin-right: 80px;
+    margin-top: 0;
   }
 
   .sub_title_text {
@@ -2063,7 +2072,7 @@ li {
 
 @media screen and (max-width: 750px) {
   .fv {
-    height: 2640px;
+    height: 2500px;
   }
 
   .catchphrase_img.hidden {
@@ -2081,7 +2090,7 @@ li {
 
 @media screen and (max-width: 650px) {
   .fv {
-    height: 2600px;
+    height: 2350px;
   }
 
   .catchphrase_img.hidden {
@@ -2192,7 +2201,7 @@ li {
 
 @media screen and (max-width: 580px) {
   .fv {
-    height: 2400px;
+    height: 2200px;
   }
 
   .sub_title_text {
@@ -2456,7 +2465,7 @@ li {
 
 @media screen and (max-width: 500px) {
   .fv {
-    height: 1950px;
+    height: 1800px;
   }
 
   .logo_content_flex {
@@ -2959,7 +2968,7 @@ li {
 
 @media screen and (max-width: 375px) {
   .fv {
-    height: 1697px;
+    height: 1640px;
   }
 
   .bg_img {
